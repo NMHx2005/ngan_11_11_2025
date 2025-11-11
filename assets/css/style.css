@@ -325,13 +325,6 @@ ul {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .assortment__card img {
-    height: auto;
-  object-fit: cover;
-}
-}
-
 .assortment__card h3 {
   font-family: var(--font-heading);
   font-size: 1.4rem;
@@ -598,6 +591,10 @@ ul {
 
   .feature__avatars {
     flex-wrap: wrap;
+  }
+
+  .assortment__card img {
+    height: auto;
   }
 
   .cta__content {
